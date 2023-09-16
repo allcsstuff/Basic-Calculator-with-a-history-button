@@ -17,7 +17,7 @@ function f(buttons){
     else if(buttons.target.innerHTML=='DEL'){
         let temp=textField.value.toString();
         textField.value=temp.slice(0,string.length-1);
-        string=string.slice(0,string-1);
+        string=textField.value;
     }
 
     else if(buttons.target.innerHTML=='='){
